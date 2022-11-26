@@ -20,7 +20,7 @@
 // array.slice(fromIndex, toIndex) - copies a certain part of the array
 
 // for - looping
-const emojis = [ '😀', '😆', '🙃', '😍' ];
+const emojis = [ '😀', '😆', '🙃', '😍', ];
 const wavingEmojis = [];
 
 for (let i = 0; i < emojis.length; i++) { wavingEmojis.push(`👋${emojis[i]}👋`); }
